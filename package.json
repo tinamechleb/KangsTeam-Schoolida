@@ -1,10 +1,17 @@
 {
-  "name": "Schoolida",
+  "name": "schoolida",
   "version": "1.0.0",
   "description": "A system for schoolida school",
   "main": "index.js",
   "repository": "https://github.com/tinamechleb/KangsTeam-Schoolida.git",
   "author": "Bassel <basselkanso82@gmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "scripts": {
+    "start":"node index.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
 }
